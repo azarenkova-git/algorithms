@@ -14,5 +14,5 @@ def rotate_part_array(arr, k):
         rotate_array(arr, 0, k % n - 1)
         rotate_array(arr, k % n, n - 1)
         return arr
-print(rotate_part_array([1, 2, 3, 4, 5], 2))
+
 
